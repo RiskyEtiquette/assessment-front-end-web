@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+        <ol>
+            <li class="crumb"><a href="./home.html">Home</a></li>
+            <li class="crumb"><a href="./profile.html">Profile</a></li>
+            <li class="crumb"><a href="./about.html">About</a></li>
+			<li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+        </ol>
+    </nav>
+
+    <content>
+        <h1>Hello World</h1>
+        <!-- insert hello world here -->
+
+        <!-- Changed image to a cat image -->
+        <img src="https://placekitten.com/200/300" alt="A cute cat image">
+
+        <!-- Added welcoming message -->
+        <p>Welcome to our website! We're thrilled to have you here.</p>
+
+        <!-- Added a bulleted list of compliments -->
+        <ul>
+            <li>You're doing great!</li>
+            <li>You're awesome!</li>
+            <li>You've got this!</li>
+        </ul>
+
+        <h2>Contact Us</h2>
+        <form id="contact">
+            Your name:
+            <input type="text">
+
+            Message:
+            <input type="textarea">
+
+            <!-- Added a new form input for how the user heard about the website -->
+            <fieldset>
+                <legend>How did you hear about this website?</legend>
+                <label><input type="checkbox" name="how-heard" value="Google"> Google</label><br>
+                <label><input type="checkbox" name="how-heard" value="A friend"> A friend</label><br>
+                <label><input type="checkbox" name="how-heard" value="Other"> Other</label><br>
+            </fieldset>
+
+            <input type="submit">
+        </form>
+
+    </content>
+
+
+    <script src="about.js"></script>
+
+</body>
+</html>
